@@ -27,7 +27,7 @@ module.exports = {
   AUTHOR: process.env.AUTHOR || "𝞓𝙇𝙁𝞓",
   DATABASE: DATABASE_URL === './database.db' ? new Sequelize({ dialect: 'sqlite', storage: DATABASE_URL, logging: false }) : new Sequelize(DATABASE_URL, {dialect: 'postgres', ssl: true, protocol: 'postgres', dialectOptions: { native: true, ssl: { require: true, rejectUnauthorized: false },}, logging: false }),
   BOT_INFO: process.env.BOT_INFO || 'Aurora;FoxxyTheFox/AlienAlfa;0;https://github.com/Alien-Alfa/Alien-alfa/blob/beta/Alfa.jpg?raw=true',
-  SUDO: process.env.SUDO || "919383400679",
+  SUDO: process.env.SUDO || "919539060020",
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || " ",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || " ",
   OWNER_NAME: process.env.OWNER_NAME || "𝞓𝙇𝞘𝞢𝞜-𝞓𝙇𝙁𝞓",
